@@ -88,6 +88,61 @@ print(thistuple[-1])
 
 
 
+# Tuples are immutable, which means you cannot change the value of a tuple once it is created.
+
+
+thistuple = ("apple", "banana", "cherry")
+thistuple[1] = "blackcurrant" # this will raise an error because tuples are immutable
+print(thistuple)
+
+
+# Tuples can be concatenated with the + operator:
+
+
+thistuple = ("apple", "banana", "cherry")
+thistuple2 = ("blackcurrant", "orange", "blueberry")
+thistuple3 = thistuple + thistuple2
+print(thistuple3)
+
+
+# Tuples can be repeated with * operator:
+
+
+thistuple = ("apple", "banana", "cherry")
+thistuple4 = thistuple * 2
+print(thistuple4)
+
+
+# Tuples are hashable which means they can be used as keys in a dictionary:
+
+
+thistuple = ("apple", "banana", "cherry")
+mylist = ["apple", "banana", "cherry"]
+mydict = {"apple": "red", "banana": "yellow", "cherry": "red"}
+print(mydict[thistuple[1]])
+
+
+# Tuples can be used as a key in a dictionary:
+
+
+thistuple = ("apple", "banana", "cherry")
+mydict = {"apple": "red", "banana": "yellow", "cherry": "red"}
+print(mydict[thistuple])
+
+
+# You can specify a range of indexes by specifying where to start and where to end the range.
+
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+
+
+
+
+
+
+
+
 
 
 
