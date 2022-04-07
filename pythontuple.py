@@ -73,3 +73,22 @@ print(thistuple) # this will raise an error because the tuple no longer exists
 def multiply(x, y):
     return x * y    # this function multiplies two numbers and returns the result
 
+
+print(multiply(2, 3)) # this will print 6
+
+
+# YouNegative indexing means start from the end.
+
+#-1 refers to the last item, -2 refers to the second last item etc.
+
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+
+
+
+
+
+
+
+
